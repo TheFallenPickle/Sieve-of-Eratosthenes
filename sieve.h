@@ -1,6 +1,6 @@
 #include <cstdio>
 #include <cstdlib>
-#include <vector>
+#include <climits>
 #include <sstream>
 
 using namespace std;
@@ -14,6 +14,6 @@ using namespace std;
 
 class Sieve{
   public:
-    vector <int> nums;
+    int nums[INT_MAX];
     int n;
 };
