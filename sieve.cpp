@@ -54,7 +54,6 @@ int main(int argc, char** argv){
   /*
     resize the vector in the Sieve class to the size of n, set all vals to 0
   */
-  s->nums.resize(s->n, 0);
 
 /*
   Loop maintains following rules:
